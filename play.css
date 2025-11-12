@@ -1,0 +1,115 @@
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', Arial, sans-serif;
+  background: radial-gradient(circle at top, #0a0a0a, #000);
+  color: #fff;
+  line-height: 1.6;
+  overflow-x: hidden;
+  text-align: center;
+}
+
+header {
+  background: linear-gradient(90deg, #ce5757, #222);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+   padding:4px;
+  background:linear-gradient(90deg,#132840,#1f62a9,#870fbb);
+  box-shadow:0 0 20px #0d0b25,0 0 40px #b100ff;
+  box-shadow: 0 2px 8px rgba(255, 255, 255, 0.1);
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 5%;
+  text-align: center;
+}
+
+.logo {
+  font-size: 1.8rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+  color: #00ffe5;
+  text-align: left;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.dot {
+  width: 12px;
+  height: 12px;
+  background-color: #00ffe5;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+nav a {
+  color: #ccc;
+  text-decoration: none;
+  margin-left: 25px;
+  font-weight: 500;
+  transition: all 0.3s;
+  text-align: center;
+}
+
+nav a:hover {
+  color: #00ffe5;
+  text-shadow: 0 0 8px #00ffe5;
+}
+
+h1 {
+  text-align: center;
+  margin: 50px 0 10px;
+  font-size: 2.5rem;
+  color: #00ffe5;
+  text-transform: uppercase;
+  text-shadow: 0 0 10px #7bcfc6, 0 0 25px #00ffe5;
+  letter-spacing: 2px;
+   padding:4px;
+  background:linear-gradient(90deg,#1a4643,#1b2a39,#64046a);
+  box-shadow:0 0 20px #88e9e3,0 0 40px #b100ff;
+}
+
+h3 {
+  color: #ff5ecb;
+  margin: 10px 0;
+  text-align: center;
+  font-size: 1.4rem;
+  text-shadow: 0 0 10px #ff5ecb;
+}
+
+section {
+  padding: 30px 8%;
+  margin-bottom: 50px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+section:nth-child(even) {
+  background: rgba(255, 255, 255, 0.03);
+}
+
+
+img{
+border: 10px red;
+border-radius: 50px;
+
+  border-radius:155px;
+  padding:4px;
+  background:linear-gradient(90deg,#00fff0,#007bff,#b100ff);
+  box-shadow:0 0 20px #00fff0,0 0 40px #b100ff;
+}
+
+
+ 
